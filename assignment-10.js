@@ -10,12 +10,3 @@
 
 // =========================== Your Code ============================== //
 var vehicle = "Car";
-var vehicleOne="bike";
-var vehicleTwo="Truck";
-var vehicleThree="Bus";
- // bike, Truck, Bus
-var price= 97;
-console.log(`the cost of petrol for ${vehicle} will be ${10*price}`);
-console.log(`the cost of petrol for ${vehicleOne} will be ${5*price}`);
-console.log(`the cost of petrol for ${vehicleTwo} will be ${30*price}`);
-console.log(`the cost of petrol for ${vehicleThree} will be ${25*price}`);
