@@ -9,4 +9,14 @@
 // "The Cost of Petrol for a Car will be YOUR_ANSWER"
 
 // =========================== Your Code ============================== //
-var vehicle = "Car";
+var vehicle = "car";
+var petrolPrice = 97;
+var carPrice = 10 * petrolPrice;
+var truckPrice = 30 * petrolPrice;
+var busPrice = 25 * petrolPrice;
+var bikePrice = 10 * petrolPrice;
+
+if (vehicle === "car") console.log(`the cost of ${vehicle} will be ${carPrice}`);
+else if (vehicle === "truck") console.log(`the cost of ${vehicle} will be ${truckPrice}`);
+else if (vehicle === "bus") console.log(`the cost of ${vehicle} will be ${busPrice}`);
+else if (vehicle === "bike") console.log(`the cost of  ${vehicle} will be ${bikePrice}`);
